@@ -1,0 +1,8 @@
+no1 = int(input("Enter num 1"))
+no2 = int(input("Enter num 2"))
+print("add = " ,no1+no2)
+print("subs = " ,no1-no2)
+print("multiply ", no1*no2)
+print("divide = " ,no1/no2)
+print("floor" ,no1//no2)
+print("Modulo" ,no1%no2)

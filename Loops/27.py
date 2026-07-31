@@ -1,0 +1,14 @@
+n=int(input('enter limit:'))
+a=1
+b=-5
+i=0
+adif= 2
+bdif=-2
+print(a,b, sep='\n')
+while i<=n:
+    a+=adif
+    b+=bdif
+    adif+=1
+    bdif+=-1
+    print(a,b, sep='\n')
+    i+=1
